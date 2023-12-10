@@ -14,7 +14,7 @@ require("lazy").setup({
         tag = '0.1.5',
         dependencies = {'nvim-lua/plenary.nvim'}
     },
-    {'nvim-treesitter/nvim-treesitter'},
+    -- {'nvim-treesitter/nvim-treesitter'},
     {'hrsh7th/cmp-nvim-lsp'},
     {'hrsh7th/cmp-buffer'},
     {'hrsh7th/cmp-path'},
@@ -33,7 +33,7 @@ require("lazy").setup({
     {'windwp/nvim-autopairs'},
     {'Djancyp/outline'},
     {'terrortylor/nvim-comment'},
-    {'windwp/nvim-ts-autotag'},
+    -- {'windwp/nvim-ts-autotag'},
     {"akinsho/bufferline.nvim", dependencies = {'nvim-tree/nvim-web-devicons'}},
     {'hrsh7th/cmp-nvim-lsp-signature-help'},
     {
@@ -66,5 +66,14 @@ require("lazy").setup({
       },
     },
     { 'neoclide/coc.nvim' },
-    { 'preservim/nerdtree' }
+    { 'preservim/nerdtree' },
+    { 'pocco81/auto-save.nvim' },
+    {
+        'VonHeikemen/fine-CMDline.nvim',
+        dependencies = { 'MunifTanjim/nui.nvim' }
+    },
+    {
+        "kdheepak/lazygit.nvim",
+        dependencies = { "nvim-lua/plenary.nvim" },
+    }
 });
