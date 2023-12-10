@@ -67,7 +67,6 @@ require("lazy").setup({
         },
     },
     -- { 'neoclide/coc.nvim' },
-    { 'preservim/nerdtree' },
     { 'pocco81/auto-save.nvim' },
     {
         'VonHeikemen/fine-CMDline.nvim',
@@ -76,5 +75,15 @@ require("lazy").setup({
     {
         "kdheepak/lazygit.nvim",
         dependencies = { "nvim-lua/plenary.nvim" },
+    },
+    {
+        "nvim-neo-tree/neo-tree.nvim",
+        branch = "v3.x",
+        dependencies = {
+            "nvim-lua/plenary.nvim",
+            "nvim-tree/nvim-web-devicons",
+            "MunifTanjim/nui.nvim",
+            "s1n7ax/nvim-window-picker"
+        }
     }
 });

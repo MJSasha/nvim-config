@@ -26,8 +26,19 @@ require('dashboard').setup {
                 key = 'e',
                 keymap = 'SPC e',
                 key_hl = 'Number',
-                action = ':NERDTreeToggle'
-            }, {
+                action = ':Neotree float'
+            },
+            {
+                icon = ' ',
+                icon_hl = 'Title',
+                desc = 'Open git',
+                desc_hl = 'String',
+                key = 'g',
+                keymap = 'SPC g g',
+                key_hl = 'Number',
+                action = ':LazyGit'
+            },
+            {
                 icon = '󰈞 ',
                 icon_hl = 'Title',
                 desc = 'Find files',
@@ -36,7 +47,8 @@ require('dashboard').setup {
                 keymap = 'SPC f f',
                 key_hl = 'Number',
                 action = ':Telescope find_files'
-            }, {
+            },
+            {
                 icon = ' ',
                 icon_hl = 'Title',
                 desc = 'Find text',
