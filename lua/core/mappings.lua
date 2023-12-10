@@ -4,7 +4,7 @@ vim.g.mapleader = " "
 vim.keymap.set('n', '<leader>tt', ':NERDTreeToggle<CR>')
 
 -- FineCmd
-vim.api.nvim_set_keymap('n', '<CR>', '<cmd>FineCmdline<CR>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<CR>', ':FineCmdline<CR>', {noremap = true})
 
 -- ToggleTerm
 vim.keymap.set('n', '<leader>tr', ':ToggleTerm<CR>')

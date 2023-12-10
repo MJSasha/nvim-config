@@ -15,6 +15,7 @@ require("lazy").setup({
         dependencies = {'nvim-lua/plenary.nvim'}
     },
     -- {'nvim-treesitter/nvim-treesitter'},
+    {'neovim/nvim-lspconfig' },
     {'hrsh7th/cmp-nvim-lsp'},
     {'hrsh7th/cmp-buffer'},
     {'hrsh7th/cmp-path'},
@@ -65,7 +66,7 @@ require("lazy").setup({
             { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
         },
     },
-    { 'neoclide/coc.nvim' },
+    -- { 'neoclide/coc.nvim' },
     { 'preservim/nerdtree' },
     { 'pocco81/auto-save.nvim' },
     {
