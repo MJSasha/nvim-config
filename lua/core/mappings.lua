@@ -8,9 +8,6 @@ vim.keymap.set('n', '<leader>o', ':Neotree float git_status<CR>')
 -- FineCmd
 vim.api.nvim_set_keymap('n', '<CR>', ':FineCmdline<CR>', {noremap = true})
 
--- ToggleTerm
-vim.keymap.set('n', '<leader>tr', ':ToggleTerm<CR>')
-
 -- Navigation
 vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
 vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
