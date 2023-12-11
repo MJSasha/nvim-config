@@ -54,7 +54,7 @@ require('dashboard').setup {
                 desc = 'Find text',
                 desc_hl = 'String',
                 key = 'w',
-                keymap = 'SPC f w',
+                keymap = 'SPC f g',
                 key_hl = 'Number',
                 action = ':Telescope live_grep'
             }
