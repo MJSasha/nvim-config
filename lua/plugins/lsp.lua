@@ -4,6 +4,7 @@ capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 local lspconfig = require('lspconfig')
 lspconfig.pyright.setup {}
 lspconfig.csharp_ls.setup {}
+lspconfig.lua_ls.setup {}
 lspconfig.cssls.setup {
     capabilities = capabilities
 }
