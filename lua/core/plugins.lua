@@ -30,6 +30,7 @@ require("lazy").setup({
     },
     {'nvim-tree/nvim-web-devicons'},
     {"williamboman/mason.nvim", build = ":MasonUpdate"},
+    { 'williamboman/mason-lspconfig.nvim' },
     {'akinsho/toggleterm.nvim', version = "*", config = true},
     {'windwp/nvim-autopairs'},
     {'Djancyp/outline'},

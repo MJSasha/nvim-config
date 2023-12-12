@@ -1,13 +1,5 @@
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
--- Sntup language servers.
-local lspconfig = require('lspconfig')
-lspconfig.pyright.setup {}
-lspconfig.csharp_ls.setup {}
-lspconfig.lua_ls.setup {}
-lspconfig.cssls.setup {
-    capabilities = capabilities
-}
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
 vim.keymap.set('n', '<leader>lD', vim.diagnostic.open_float)
