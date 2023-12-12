@@ -85,5 +85,6 @@ require("lazy").setup({
             "MunifTanjim/nui.nvim",
             "s1n7ax/nvim-window-picker"
         }
-    }
+    },
+    { 'ap/vim-css-color' }
 });
