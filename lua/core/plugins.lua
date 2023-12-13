@@ -87,5 +87,6 @@ require("lazy").setup({
             "s1n7ax/nvim-window-picker"
         }
     },
-    { 'ap/vim-css-color' }
+    { 'ap/vim-css-color' },
+    { 'karb94/neoscroll.nvim' }
 });
