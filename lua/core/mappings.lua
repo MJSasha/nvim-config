@@ -37,3 +37,6 @@ vim.keymap.set('n', '<leader>tv', ':ToggleTerm direction=vertical size=40<CR>')
 
 -- LazyGit
 vim.keymap.set('n', '<leader>gg', ':LazyGit<CR>')
+
+-- Outliner
+vim.keymap.set('n', '<leader>bo', ':BSOpen<CR>')
