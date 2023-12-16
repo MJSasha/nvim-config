@@ -36,4 +36,4 @@ vim.keymap.set('n', '<leader>th', ':ToggleTerm direction=horizontal<CR>')
 vim.keymap.set('n', '<leader>tv', ':ToggleTerm direction=vertical size=40<CR>')
 
 -- LazyGit
-vim.keymap.set('n', '<leader>g', ':LazyGit<CR>')
+vim.keymap.set('n', '<leader>gg', ':LazyGit<CR>')
