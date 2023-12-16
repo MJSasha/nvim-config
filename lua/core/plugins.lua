@@ -25,18 +25,29 @@ require("lazy").setup({
     {
         'nvim-lualine/lualine.nvim',
         dependencies = {
-            'nvim-tree/nvim-web-devicons', 'linrongbin16/lsp-progress.nvim'
-        }
+            'nvim-tree/nvim-web-devicons',
+            'linrongbin16/lsp-progress.nvim',
+        },
     },
     { 'nvim-tree/nvim-web-devicons' },
-    { 'williamboman/mason.nvim', build = ':MasonUpdate'},
+    {
+        'williamboman/mason.nvim',
+        build = ':MasonUpdate',
+    },
     { 'williamboman/mason-lspconfig.nvim' },
-    {'akinsho/toggleterm.nvim', version = "*", config = true},
+    {
+        'akinsho/toggleterm.nvim',
+        version = "*",
+        config = true,
+    },
     { 'windwp/nvim-autopairs' },
     { 'Djancyp/outline' },
     { 'terrortylor/nvim-comment' },
     -- {'windwp/nvim-ts-autotag'},
-    { "akinsho/bufferline.nvim",            dependencies = { 'nvim-tree/nvim-web-devicons' } },
+    {
+        "akinsho/bufferline.nvim",
+        dependencies = { 'nvim-tree/nvim-web-devicons' },
+    },
     { 'hrsh7th/cmp-nvim-lsp-signature-help' },
     {
         'linrongbin16/lsp-progress.nvim',
@@ -52,7 +63,12 @@ require("lazy").setup({
     { 'folke/which-key.nvim' },
     { 'hrsh7th/vim-vsnip' },
     { 'hrsh7th/vim-vsnip-integ' },
-    { 'ellisonleao/gruvbox.nvim', priority = 1000, config = true, opts = ... },
+    {
+        'ellisonleao/gruvbox.nvim',
+        priority = 1000,
+        config = true,
+        opts = ...,
+    },
     {
         'folke/flash.nvim',
         event = 'VeryLazy',
