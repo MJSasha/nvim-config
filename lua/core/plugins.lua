@@ -49,13 +49,13 @@ require("lazy").setup({
         event = 'VimEnter',
         dependencies = { { 'nvim-tree/nvim-web-devicons' } }
     },
-    { "folke/which-key.nvim" },
+    { 'folke/which-key.nvim' },
     { 'hrsh7th/vim-vsnip' },
     { 'hrsh7th/vim-vsnip-integ' },
-    { "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = ... },
+    { 'ellisonleao/gruvbox.nvim', priority = 1000, config = true, opts = ... },
     {
-        "folke/flash.nvim",
-        event = "VeryLazy",
+        'folke/flash.nvim',
+        event = 'VeryLazy',
         ---@type Flash.Config
         opts = {},
         -- stylua: ignore
@@ -74,28 +74,28 @@ require("lazy").setup({
         dependencies = { 'MunifTanjim/nui.nvim' }
     },
     {
-        "kdheepak/lazygit.nvim",
-        dependencies = { "nvim-lua/plenary.nvim" },
+        'kdheepak/lazygit.nvim',
+        dependencies = { 'nvim-lua/plenary.nvim' },
     },
     {
-        "nvim-neo-tree/neo-tree.nvim",
-        branch = "v3.x",
+        'nvim-neo-tree/neo-tree.nvim',
+        branch = 'v3.x',
         dependencies = {
-            "nvim-lua/plenary.nvim",
-            "nvim-tree/nvim-web-devicons",
-            "MunifTanjim/nui.nvim",
-            "s1n7ax/nvim-window-picker"
+            'nvim-lua/plenary.nvim',
+            'nvim-tree/nvim-web-devicons',
+            'MunifTanjim/nui.nvim',
+            's1n7ax/nvim-window-picker'
         }
     },
     { 'ap/vim-css-color' },
     { 'karb94/neoscroll.nvim' },
     { 'kevinhwang91/nvim-bqf' },
     {
-        "kylechui/nvim-surround",
+        'kylechui/nvim-surround',
         version = "*",
         event = "VeryLazy",
         config = function()
-            require("nvim-surround").setup {}
+            require('nvim-surround').setup {}
         end
     },
     {
