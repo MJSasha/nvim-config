@@ -54,8 +54,6 @@ local color_selector = function()
     return { fg = mode_color[vim.fn.mode()] }
 end
 
-
--- Config
 local config = {
     options = {
         component_separators = '',
@@ -95,8 +93,8 @@ ins_left {
     function()
         return ''
     end,
-    color = color_selector,      -- Sets highlighting of component
-    padding = { left = 0, right = 2 }, -- We don't need space before this
+    color = color_selector,
+    padding = { left = 0, right = 2 },
 }
 
 ins_left {
@@ -109,7 +107,6 @@ ins_left {
 }
 
 ins_left {
-    -- filesize component
     'filesize',
     cond = conditions.buffer_not_empty,
 }
@@ -150,7 +147,6 @@ ins_left {
 }
 
 ins_left {
-    -- Lsp server name .
     function()
         local lsp_found_icon = '󰒐'
         local lsp_not_found_icon = '󰒑'
@@ -195,7 +191,6 @@ ins_right {
 
 ins_right {
     'diff',
-    -- Is it me or the symbol for modified us really weird
     symbols = { added = ' ', modified = '󰙏 ', removed = ' ' },
     diff_color = {
         added = { fg = colors.green },
@@ -213,5 +208,4 @@ ins_right {
     padding = { left = 1, right = 0 },
 }
 
--- Now don't forget to initialize lualine
 lualine.setup(config)
