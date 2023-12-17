@@ -24,6 +24,8 @@ require("plugins.whichkey")
 require("plugins.lazygit")
 require("plugins.neotree")
 require("plugins.neoscroll")
-require("plugins.config-opener")
 require("plugins.bqf")
+
+-- Custom
+require("plugins.config-opener")
 require("plugins.system-explorer-opener")
