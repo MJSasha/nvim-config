@@ -118,5 +118,9 @@ require("lazy").setup({
         config = function()
             require('treesj').setup {}
         end,
+    },
+    {
+        'folke/todo-comments.nvim',
+        dependencies = { 'nvim-lua/plenary.nvim' },
     }
 });

@@ -25,6 +25,7 @@ require("plugins.lazygit")
 require("plugins.neotree")
 require("plugins.neoscroll")
 require("plugins.bqf")
+require("plugins.todo-comments")
 
 -- Custom
 require("plugins.config-opener")
