@@ -122,5 +122,6 @@ require("lazy").setup({
     {
         'folke/todo-comments.nvim',
         dependencies = { 'nvim-lua/plenary.nvim' },
-    }
+    },
+    { 'mg979/vim-visual-multi' }
 });
