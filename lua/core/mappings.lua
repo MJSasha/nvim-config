@@ -5,9 +5,6 @@ vim.keymap.set('n', '<leader>e', ':Neotree float<CR>')
 vim.keymap.set('n', '<leader>E', ':Neotree left toggle<CR>')
 vim.keymap.set('n', '<leader>o', ':Neotree float git_status<CR>')
 
--- FineCmd
-vim.api.nvim_set_keymap('n', '<CR>', ':FineCmdline<CR>', {noremap = true})
-
 -- Navigation
 vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
 vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
@@ -17,7 +14,7 @@ vim.keymap.set('n', '<leader>/', ':CommentToggle<CR>')
 
 -- Splits
 vim.keymap.set('n', '|', ':vsplit<CR>')
-vim.keymap.set('n', '\\', ':split<CR>')
+vim.keymap.set('n', '-', ':split<CR>')
 
 -- Other
 vim.keymap.set('n', '<leader>w', ':w<CR>')

@@ -1,6 +1,8 @@
 vim.wo.number = true
 vim.wo.relativenumber = true
 vim.opt.swapfile = false
+vim.o.encoding = "utf-8"
+vim.o.fileencodings = "utf-8,cp1251"
 
 vim.g.did_load_filetypes = 1
 vim.g.formatoptions = "qrn1"

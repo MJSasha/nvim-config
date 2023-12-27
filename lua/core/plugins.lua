@@ -84,10 +84,6 @@ require("lazy").setup({
     -- { 'neoclide/coc.nvim' },
     { 'pocco81/auto-save.nvim' },
     {
-        'VonHeikemen/fine-CMDline.nvim',
-        dependencies = { 'MunifTanjim/nui.nvim' }
-    },
-    {
         'kdheepak/lazygit.nvim',
         dependencies = { 'nvim-lua/plenary.nvim' },
     },
