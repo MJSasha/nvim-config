@@ -41,7 +41,7 @@ choco install lazygit
 4. Clone this repository to `~/Local/AppData/nvim/`:
 
 ```bash
-git clone https://github.com/MJSasha/nvim-config.git ~/Local/AppData/vim
+git clone https://github.com/MJSasha/nvim-config.git ~/Local/AppData/nvim
 ```
 
 5. Launch Neovim and wait for the plugins to load.
