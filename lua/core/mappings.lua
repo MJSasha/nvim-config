@@ -22,6 +22,7 @@ vim.keymap.set('n', '<leader>x', ':BufferLinePickClose<CR>')
 vim.keymap.set('n', '<leader>X', ':BufferLineCloseRight<CR>')
 vim.keymap.set('n', '<leader>s', ':BufferLineSortByTabs<CR>')
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
+vim.keymap.set('n', '<leader>tw', ':set wrap!<CR>')
 
 -- Tabs
 vim.keymap.set('n', '<Tab>', ':BufferLineCycleNext<CR>')
